@@ -48,7 +48,7 @@ four different types of solar insolation profiles as follows,
     simulator testing purposes. Note that the user should not give the
     solar radiation below $400 W/m^2$ as it may lead to some error. The
     error may be in terms of complex numbers, or some variable may
-    appear as not a number (NAN). Such errors can usually be identified 
+    appear as not a number (NaN). Such errors can usually be identified 
     and corrected through careful debugging.
 
 -   `Type 2`: This is for the Real data of solar radiation (Run the
