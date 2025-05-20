@@ -195,19 +195,19 @@ simulation time is recorded in variable 'Simu_time'.
 
 []{#Tab label="Tab"}
 
-::: tabular
-cccc & &\
-& & &\
-& & &\
-& & &\
-& & &\
-& & &\
-& & &\
-& & &\
-& & &\
-& & &\
-& & &
-:::
+| \multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Solar radiation |
+|---------------------------------------------------------------------------------|
+| \multicolumn{1}{|c|}{}                                                          | \multicolumn{1}{c|}{}      | \multicolumn{1}{c|}{Oil Only loop} | \multicolumn{1}{c|}{Hybrid Loop} |
+| \multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Type-0          |
+| \multicolumn{1}{|c|}{}                                                          | \multicolumn{1}{c|}{Day-2} | \multicolumn{1}{c|}{7307}          | \multicolumn{1}{c|}{7292}        |
+| \multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Type-1          |
+| \multicolumn{1}{|c|}{}                                                          | \multicolumn{1}{c|}{Day-2} | \multicolumn{1}{c|}{7348}          | \multicolumn{1}{c|}{7384}        |
+| \multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Type-2          |
+| \multicolumn{1}{|c|}{}                                                          | \multicolumn{1}{c|}{Day-2} | \multicolumn{1}{c|}{7334}          | \multicolumn{1}{c|}{7371}        |
+| \multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Type-3          |
+| \multicolumn{1}{|c|}{}                                                          | \multicolumn{1}{c|}{Day-2} | \multicolumn{1}{c|}{7322}          | \multicolumn{1}{c|}{7357}        |
+| \multicolumn{1}{l}{}                                                            | \multicolumn{1}{l}{}       | \multicolumn{1}{l}{}               | \multicolumn{1}{l}{}             |
+
 
 # Results
 
