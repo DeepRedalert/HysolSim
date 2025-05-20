@@ -1,4 +1,4 @@
-<h1>Read Me file for HysolSim: A Digital Twin (Simulator) for Hybrid Solar
+<h1>ReadMe file for HysolSim: A Digital Twin (Simulator) for Hybrid Solar
 Thermal Power Plant</h1>
 
 
