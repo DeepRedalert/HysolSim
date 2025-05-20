@@ -6,7 +6,7 @@
 
 Details on how to test the simulator are provided in Section 3 of this README file.  
 
-# Initialisation
+# 1 Initialisation
 
 Before starting the Hybrid solar thermal power plant (HSTPP) simulator, ensure various parameters values and initial conditions for the plant are initialized as desired. All the initial conditions and parameter values are specified in the file `‘HSTPP_Parameters.m’`. Values can be changed in this file by the user[^1]. After specifying values in the `‘HSTPP_Parameters.m’` file, run (execute) the file. It will then ask the user to choose Solar radiation `Type`  `Type0`/`Type1`/`Type2`/`Type3`). The details about the various `Types` of solar radiation will be discussed later after this section. After choosing the `Type`, a message asking the user to wait for some time will be displayed. During this time the value of the newly changed parameters will overwrite the earlier ones in the respective `‘.mat’` file. All the workspace variables are automatically saved in the `‘.mat’` file which will be loaded in the script `‘Hybrid.m/Oil_only.m’` file for running the simulator.
 
