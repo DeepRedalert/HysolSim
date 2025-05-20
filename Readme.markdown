@@ -183,7 +183,7 @@ a PC with the following specifications:
 Table [1](#tab1) lists the time needed (in seconds) for simulation for various cases. This
 simulation time is recorded in variable 'Simu_time'.
 
-<p id="tab1"></p>
+<p id="tab1"><b>Table 1: Simulation time</b></p>
 
 | Solar Radiation Type    | Day   | Oil Only Loop | Hybrid Loop |
 |------------------------|-------|---------------|-------------|
