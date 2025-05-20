@@ -193,20 +193,17 @@ Table [\[Tab\]](#Tab){reference-type="ref" reference="Tab"} lists the
 time needed (in seconds) for simulation for various cases. This
 simulation time is recorded in variable 'Simu_time'.
 
-[]{#Tab label="Tab"}
+| Solar Radiation Type    | Day   | Oil Only Loop | Hybrid Loop |
+|-------------------------|-------|----------------|--------------|
+| Type-0 (Constant)       | Day-1 | 7166           | 6847         |
+|                         | Day-2 | 7307           | 7292         |
+| Type-1 (Step change)    | Day-1 | 7236           | 7280         |
+|                         | Day-2 | 7348           | 7384         |
+| Type-2 (Real-time)      | Day-1 | 7220           | 7268         |
+|                         | Day-2 | 7334           | 7371         |
+| Type-3 (Quadratic)      | Day-1 | 7203           | 7252         |
+|                         | Day-2 | 7322           | 7357         |
 
-| \multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Solar radiation |
-|---------------------------------------------------------------------------------|
-| \multicolumn{1}{|c|}{}                                                          | \multicolumn{1}{c|}{}      | \multicolumn{1}{c|}{Oil Only loop} | \multicolumn{1}{c|}{Hybrid Loop} |
-| \multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Type-0          |
-| \multicolumn{1}{|c|}{}                                                          | \multicolumn{1}{c|}{Day-2} | \multicolumn{1}{c|}{7307}          | \multicolumn{1}{c|}{7292}        |
-| \multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Type-1          |
-| \multicolumn{1}{|c|}{}                                                          | \multicolumn{1}{c|}{Day-2} | \multicolumn{1}{c|}{7348}          | \multicolumn{1}{c|}{7384}        |
-| \multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Type-2          |
-| \multicolumn{1}{|c|}{}                                                          | \multicolumn{1}{c|}{Day-2} | \multicolumn{1}{c|}{7334}          | \multicolumn{1}{c|}{7371}        |
-| \multicolumn{1}{|c|}{\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Type-3          |
-| \multicolumn{1}{|c|}{}                                                          | \multicolumn{1}{c|}{Day-2} | \multicolumn{1}{c|}{7322}          | \multicolumn{1}{c|}{7357}        |
-| \multicolumn{1}{l}{}                                                            | \multicolumn{1}{l}{}       | \multicolumn{1}{l}{}               | \multicolumn{1}{l}{}             |
 
 
 # Results
