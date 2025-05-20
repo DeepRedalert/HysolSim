@@ -1,34 +1,13 @@
-<h1>ReadMe file for HysolSim: A Digital Twin (Simulator) for Hybrid Solar
-Thermal Power Plant</h1>
+<h1>ReadMe file for HysolSim: A Digital Twin (Simulator) for Hybrid Solar Thermal Power Plant</h1>
 
 
-**HysolSIm**: **`HysolSim`** is a **`MATLAB`**-based codebase that
-serves as a digital twin (simulator) for a Hybrid Solar Thermal Power
-Plant where both Parabolic Trough Collectors (PTC) and Linear Fresnel
-Reflectors (LFR) work as the concentrating mirrors. An article using the
-simulator, authored by Baidya et al. (2025), has been submitted to
-SoftwareX.
+**HysolSIm**: **`HysolSim`** is a **`MATLAB`**-based codebase that serves as a digital twin (simulator) for a Hybrid Solar Thermal Power Plant where both Parabolic Trough Collectors (PTC) and Linear Fresnel Reflectors (LFR) work as the concentrating mirrors. Note that the simulator can also be run with PTC only mode without LFR. The detailes are provided in the following section. An article using the simulator, authored by Baidya et al. (2025), has been submitted to SoftwareX.
 
-Details on how to test the simulator are provided in Section 3 of this
-README file.
+Details on how to test the simulator are provided in Section 3 of this ReadMe file.  
 
 # Initialisation
 
-Before starting the Hybrid solar thermal power plant (HSTPP) simulator,
-ensure various parameters values and initial conditions for the plant
-are initialized as desired. All the initial conditions and parameter
-values are specified in the file `‘HSTPP_Parameters.m’`. Values can be
-changed in this file by the user[^1]. After specifying values in the
-`‘HSTPP_Parameters.m’` file, execute this file. It will then ask the
-user to choose Solar radiation `Type` (`Type0`/`Type1`/`Type2`/`Type3`).
-The details about the various `Types` of solar radiation will be
-discussed later after this section. After choosing the `Type`, a message
-asking the user to wait for some time will be displayed. During this
-time the value of the newly changed parameters will overwrite the
-earlier ones in the respective `‘.mat’` file. All the workspace
-variables are automatically saved in the `‘.mat’` file which will be
-loaded in the script `‘Hybrid.m/Oil_only.m’` file for running the
-simulator.
+Before starting the Hybrid solar thermal power plant (HSTPP) simulator, ensure various parameters values and initial conditions for the plant are initialized as desired. All the initial conditions and parameter values are specified in the file `‘HSTPP_Parameters.m’`. Values can be changed in this file by the user[^1]. After specifying values in the `‘HSTPP_Parameters.m’` file, execute this file. It will then ask the user to choose Solar radiation `Type`  `Type0`/`Type1`/`Type2`/`Type3`). The details about the various `Types` of solar radiation will be discussed later after this section. After choosing the `Type`, a message asking the user to wait for some time will be displayed. During this time the value of the newly changed parameters will overwrite the earlier ones in the respective `‘.mat’` file. All the workspace variables are automatically saved in the `‘.mat’` file which will be loaded in the script `‘Hybrid.m/Oil_only.m’` file for running the simulator.
 
 **Note:** Users can readily utilize the provided '.mat' files within the
 simulator without the necessity to access the `‘HSTPP_Parameters.m’`
