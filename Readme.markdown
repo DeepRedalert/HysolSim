@@ -457,7 +457,7 @@ no 22 is for Scenario-1, and line no 23 is for Scenario-2.
 This specific Case study simulation will be performed with the options:
 `Type`=2, `Mode`=2, and `Startup`=1. The purpose of this case study,
 along with all the simulation results and discussions, are well
-described in the paper published by Baidya et. el [@Dibyajyoti].
+described in the paper published by Baidya et al. [\[3\]](#ref3).
 
 <p align="center">
   <img src="Readme_images/SC.png" alt="Case Study" width="100%">
