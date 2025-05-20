@@ -1,5 +1,5 @@
-**Read Me file for HysolSim: A Digital Twin (Simulator) for Hybrid Solar
-Thermal Power Plant**
+<h1>**Read Me file for HysolSim: A Digital Twin (Simulator) for Hybrid Solar
+Thermal Power Plant**<h1>
 
 
 **HysolSIm**: **`HysolSim`** is a **`MATLAB`**-based codebase that
