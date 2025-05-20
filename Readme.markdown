@@ -180,10 +180,10 @@ a PC with the following specifications:
 
 -   Ubuntu 22.04.3 LTS Operating System
 
-Table [\[Tab\]](#Tab){reference-type="ref" reference="Tab"} lists the
-time needed (in seconds) for simulation for various cases. This
+Table [1](#tab1) lists the time needed (in seconds) for simulation for various cases. This
 simulation time is recorded in variable 'Simu_time'.
 
+<p id="tab1"></p>
 | Solar Radiation Type    | Day   | Oil Only Loop | Hybrid Loop |
 |-------------------------|-------|----------------|--------------|
 | Type-0 (Constant)       | Day-1 | 7166           | 6847         |
@@ -440,8 +440,8 @@ To illustrate how the simulator can be used to investigate different
 designs, we perform a case study (Case Study-2 in the paper 'A Simulator
 for Hybrid Solar Thermal Power Plant' by Dibyajyoti et. el.
 [@Dibyajyoti]) for two scenarios: (i) Scenario-1: the HT and LT tanks
-contain $5000~kg$ of oil each, and (ii) Scenario-2: the HT and LT tank
-contain $15000~kg$, and $5000~kg$ of oil, respectively, i.e. more oil is
+contain 5000 kg of oil each, and (ii) Scenario-2: the HT and LT tank
+contain 15000 kg, and 5000 kg of oil, respectively, i.e. more oil is
 available in Scenario-2. For Scenario-1, load
 `‘lfr_I_sec_HX_Case_study_Low.mat’` and for Scenario-2, load
 `‘lfr_I_sec_HX_Case_study_high_Low.mat’` file. The user should ensure
