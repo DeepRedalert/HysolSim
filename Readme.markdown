@@ -22,7 +22,7 @@ conditions to tailor the simulation to their specific requirements.
 The simulator has several pre-configured options. These are mentioned
 below:
 
-## Different **Types** for the simulator: (Depends on the solar radiation profile)
+## Different **`Types`** for the simulator: (Depends on the solar radiation profile)
 
 The Simulator comes with various `Types` depending upon the solar
 radiation profile. `Type0` for constant solar radiation, `Type1` is for
