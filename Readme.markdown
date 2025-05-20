@@ -47,8 +47,8 @@ four different types of solar insolation profiles as follows,
     simulator testing purposes. Note that the user should not give the
     solar radiation below $400 W/m^2$ as it may lead to some error. The
     error may be in terms of complex numbers, or some variable may
-    appear as not a number (NAN). Also, for the real solar profile, this
-    happens at many time instants.
+    appear as not a number (NAN). Such errors can usually be identified 
+    and corrected through careful debugging.
 
 -   `Type 2`: This is for the Real data of solar radiation (Run the
     simulator with this type to get the idea of how solar plants behave
@@ -64,7 +64,7 @@ four different types of solar insolation profiles as follows,
     `‘lfr_I_sec_quad_all_Lgp.mat’` file. Cloud cover acts as a
     disturbance.
 
-## Different Modes of the Simulator:
+## Different **`Modes`** of the Simulator:
 
 -   Mode 1: In this mode, only the Parabolic Trough Collector (PTC)
     field is operational i.e. steam is produced only from the Steam
@@ -75,7 +75,7 @@ four different types of solar insolation profiles as follows,
     steam will be produced from the Steam generator (SG) as well as the
     LFR.
 
-## Different Startup types of the simulator:
+## Different **`Startup types`** of the simulator:
 
 The simulator can replicate a two-day simulation with identical daily
 solar radiation profiles. The first day represents a Cold startup,
