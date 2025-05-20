@@ -184,16 +184,18 @@ Table [1](#tab1) lists the time needed (in seconds) for simulation for various c
 simulation time is recorded in variable 'Simu_time'.
 
 <p id="tab1"></p>
+
 | Solar Radiation Type    | Day   | Oil Only Loop | Hybrid Loop |
-|-------------------------|-------|----------------|--------------|
-| Type-0 (Constant)       | Day-1 | 7166           | 6847         |
-|                         | Day-2 | 7307           | 7292         |
-| Type-1 (Step change)    | Day-1 | 7236           | 7280         |
-|                         | Day-2 | 7348           | 7384         |
-| Type-2 (Real-time)      | Day-1 | 7220           | 7268         |
-|                         | Day-2 | 7334           | 7371         |
-| Type-3 (Quadratic)      | Day-1 | 7203           | 7252         |
-|                         | Day-2 | 7322           | 7357         |
+|------------------------|-------|---------------|-------------|
+| Type-0 (Constant)       | Day-1 | 7166          | 6847        |
+|                        | Day-2 | 7307          | 7292        |
+| Type-1 (Step change)    | Day-1 | 7236          | 7280        |
+|                        | Day-2 | 7348          | 7384        |
+| Type-2 (Real-time)      | Day-1 | 7220          | 7268        |
+|                        | Day-2 | 7334          | 7371        |
+| Type-3 (Quadratic)      | Day-1 | 7203          | 7252        |
+|                        | Day-2 | 7322          | 7357        |
+
 
 
 
