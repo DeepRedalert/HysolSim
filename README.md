@@ -1,10 +1,10 @@
-<h1>ReadMe file for HysolSim: A Digital Twin (Simulator) for Hybrid Solar Thermal Power Plant</h1>
+<h1>README file for HysolSim: A Digital Twin (Simulator) for Hybrid Solar Thermal Power Plant</h1>
 # To download the code, use link: https://drive.google.com/drive/folders/19SRaYCblCqMecEX8y5gcxp5t0zVXEmdE?usp=sharing
 
 ##
 **HysolSIm**: **`HysolSim`** is a **`MATLAB`**-based codebase that serves as a digital twin (simulator) for a Hybrid Solar Thermal Power Plant where both Parabolic Trough Collectors (PTC) and Linear Fresnel Reflectors (LFR) work as the concentrating mirrors. Note that the simulator can also be run in PTC-only mode, without the LFR. Further details are provided in the following section. An article using the simulator, authored by Baidya et al. (2025), has been submitted to SoftwareX.
 
-Details on how to test the simulator are provided in Section 3 of this ReadMe file.  
+Details on how to test the simulator are provided in Section 3 of this README file.  
 
 # Initialisation
 
@@ -104,7 +104,7 @@ Startup type for the simulator to run. To start the simulator, open
 below in [Figure 1](#fig1).
 
 <p align="center">
-  <img src="Readme_images/Front.png" alt="Main script of the Simulator" width="70%">
+  <img src="README_images/Front.png" alt="Main script of the Simulator" width="70%">
 </p>
 
 <p id="fig1" align="center"><b>Figure 1:</b> Main script of the Simulator</p>
@@ -118,7 +118,7 @@ The steps involved in running the simulator are briefly discussed below:
     be displayed as shown in [Figure 2](#fig2) to select the Type of simulation.
 
     <p align="center">
-      <img src="Readme_images/Type.png" alt="Selecting Types" width="70%">
+      <img src="README_images/Type.png" alt="Selecting Types" width="70%">
    </p>
 
    <p id="fig2" align="center"><b>Figure 2:</b> Selecting Types</p>
@@ -128,7 +128,7 @@ The steps involved in running the simulator are briefly discussed below:
     the `Mode` of operation as shown in [Figure 3](#fig3).
 
     <p align="center">
-     <img src="Readme_images/Mode.png" alt="Selecting Mode" width="70%">
+     <img src="README_images/Mode.png" alt="Selecting Mode" width="70%">
     </p>
 
     <p id="fig3" align="center"><b>Figure 3:</b> Selecting Mode</p>
@@ -138,7 +138,7 @@ The steps involved in running the simulator are briefly discussed below:
     [Figure 4](#fig4).
 
     <p align="center">
-     <img src="Readme_images/Startup1.png" alt="Selecting Startup condition" width="70%">
+     <img src="README_images/Startup1.png" alt="Selecting Startup condition" width="70%">
     </p>
 
     <p id="fig4" align="center"><b>Figure 4:</b> Selecting Startup condition</p>
@@ -461,7 +461,7 @@ along with all the simulation results and discussions, are well
 described in the paper published by Baidya et al. [\[3\]](#ref3).
 
 <p align="center">
-  <img src="Readme_images/SC.png" alt="Case Study" width="100%">
+  <img src="README_images/SC.png" alt="Case Study" width="100%">
 </p>
 
 <p id="fig5" align="center"><b>Figure 5:</b> Case Study</p>
