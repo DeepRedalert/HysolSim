@@ -124,8 +124,7 @@ The steps involved in running the simulator are briefly discussed below:
 
 -   User can type any number from $0$ to $3$ and press enter. Another
     message will be displayed on the screen asking the user to select
-    the `Mode` of operation as shown in
-    [Figure 3](#fig3)
+    the `Mode` of operation as shown in [Figure 3](#fig3).
 
     <p align="center">
      <img src="Readme_images/Mode.png" alt="Selecting Mode" width="70%">
@@ -135,10 +134,14 @@ The steps involved in running the simulator are briefly discussed below:
 
 -   User can choose either 1 or 2 and press enter. Another message will
     come on the screen to select the `Startup` condition as shown in
-    Figure.[4](#Startup1){reference-type="ref" reference="Startup1"}.
+    [Figure 4](#fig4).
 
-    ![Selecting Startup condition](Readme_images/Startup1.png){#Startup1
-    width="0.7\\linewidth"}
+    <p align="center">
+     <img src="Readme_images/Startup1.png" alt="Selecting Startup condition" width="70%">
+    </p>
+
+    <p id="fig4" align="center"><b>Figure 4:</b> Selecting Startup condition</p>
+
 
 -   User can choose either $1$, $2$ or $3$ and press enter.
 
@@ -446,7 +449,7 @@ that while considering Scenario-1, the line
 `‘load lfr_I_sec_HX_Case_study_high_Low.mat %Scenario-2`' should be
 commented. Similarly, while considering Scenario-2, the line
 `‘load lfr_I_sec_HX_Case_study_Low.mat %Scenario-1’` should be
-commented. In Figure [5](#SC){reference-type="ref" reference="SC"}, line
+commented. In [Figure 5](#fig5), line
 no 22 is for Scenario-1, and line no 23 is for Scenario-2.
 
 This specific Case study simulation will be performed with the options:
@@ -454,7 +457,11 @@ This specific Case study simulation will be performed with the options:
 along with all the simulation results and discussions, are well
 described in the paper published by Baidya et. el [@Dibyajyoti].
 
-![Case Study](Readme_images/SC.png){#SC width="1\\linewidth"}
+<p align="center">
+  <img src="Readme_images/SC.png" alt="Case Study" width="100%">
+</p>
+
+<p id="fig5" align="center"><b>Figure 5:</b> Case Study</p>
 
 [^1]: The simulator has not been tested extensively for various initial
     conditions or parameter values. Thus, provide reasonable values for
