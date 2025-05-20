@@ -114,19 +114,24 @@ below in [Figure 1](#fig1).
 The steps involved in running the simulator are briefly discussed below:
 
 -   Execute the file `‘All_HSTPP_Simulator.m’` in MATLAB. A message will
-    be displayed as shown in Figure.[2](#Type){reference-type="ref"
-    reference="Type"} to select the Type of simulation.
+    be displayed as shown in [Figure 2](#fig2) to select the Type of simulation.
 
-    ![Selecting Types](Readme_images/Type.png){#Type
-    width="0.7\\linewidth"}
+    <p align="center">
+      <img src="Readme_images/Type.png" alt="Selecting Types" width="70%">
+   </p>
+
+   <p id="fig2" align="center"><b>Figure 2:</b> Selecting Types</p>
 
 -   User can type any number from $0$ to $3$ and press enter. Another
     message will be displayed on the screen asking the user to select
     the `Mode` of operation as shown in
-    Figure.[3](#Mode){reference-type="ref" reference="Mode"}.
+    [Figure 3](#fig3)
 
-    ![Selecting Mode](Readme_images/Mode.png){#Mode
-    width="0.7\\linewidth"}
+    <p align="center">
+     <img src="Readme_images/Mode.png" alt="Selecting Mode" width="70%">
+    </p>
+
+    <p id="fig3" align="center"><b>Figure 3:</b> Selecting Mode</p>
 
 -   User can choose either 1 or 2 and press enter. Another message will
     come on the screen to select the `Startup` condition as shown in
