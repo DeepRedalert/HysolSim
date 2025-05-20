@@ -54,7 +54,7 @@ four different types of solar insolation profiles as follows,
     simulator with this type to get the idea of how solar plants behave
     in real aspects) which loads from `‘lfr_I_sec_real_all_Lgp.mat’`
     file. This real-time data has been taken from the Gurgaon HSTPP
-    plant for a summer day in 2014 [1](#ref1), [2](#ref2). This
+    plant for a summer day in 2014 [\[1\]](#ref1), [\[2\]](#ref2). This
     solar insolation data is saved as `‘maymonth.xlxs’` file.\
     **Note:** For Ubuntu, '.xlxs' will work, but for Windows OS,
     `‘maymonth.xlxs’` should be changed to `‘maymonth.csv’` format.
@@ -440,8 +440,8 @@ described below:
 
 To illustrate how the simulator can be used to investigate different
 designs, we perform a case study (Case Study-2 in the paper 'A Simulator
-for Hybrid Solar Thermal Power Plant' by Dibyajyoti et. el.
-[@Dibyajyoti]) for two scenarios: (i) Scenario-1: the HT and LT tanks
+for Hybrid Solar Thermal Power Plant' by Baidya et al.
+[\[3\]](#ref3) for two scenarios: (i) Scenario-1: the HT and LT tanks
 contain 5000 kg of oil each, and (ii) Scenario-2: the HT and LT tank
 contain 15000 kg, and 5000 kg of oil, respectively, i.e. more oil is
 available in Scenario-2. For Scenario-1, load
@@ -473,6 +473,6 @@ described in the paper published by Baidya et. el [@Dibyajyoti].
 
 ## References
 
-<p id="ref1">1. I. B. Project, National solar thermal power plant, https://www.ese.iitb.ac.in/~NSTPP/ (2023).</p>
-<p id="ref2">2. S. Kannaiyan, S. Bhartiya, M. Bhushan, Dynamic modeling and simulation of a hybrid solar thermal power plant, Industrial & Engineering Chemistry Research 58 (2019) 7531–7550. doi: 10.1021/acs.iecr.8b04730.</p>
-<p id="ref3">3. D. Baidya, S. Bhartiya, M. Bhushan, Simulator for hybrid solar thermal power plant, SoftwareX (2025).</p>
+<p id="ref1">[1]. I. B. Project, National solar thermal power plant, https://www.ese.iitb.ac.in/~NSTPP/ (2023).</p>
+<p id="ref2">[2]. S. Kannaiyan, S. Bhartiya, M. Bhushan, Dynamic modeling and simulation of a hybrid solar thermal power plant, Industrial & Engineering Chemistry Research 58 (2019) 7531–7550. doi: 10.1021/acs.iecr.8b04730.</p>
+<p id="ref3">[3]. D. Baidya, S. Bhartiya, M. Bhushan, Simulator for hybrid solar thermal power plant, SoftwareX (2025).</p>
