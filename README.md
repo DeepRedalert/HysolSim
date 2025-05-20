@@ -18,12 +18,12 @@ conditions unless desired. The `‘HSTPP_Parameters.m’` file becomes
 relevant only when users intend to modify such parameters or initial
 conditions to tailor the simulation to their specific requirements.
 
-# Simulator structure
+# 2 Simulator structure
 
 The simulator has several pre-configured options. These are mentioned
 below:
 
-## Different **`Types`** for the simulator: (Depends on the solar radiation profile)
+## 2.1 Different **`Types`** for the simulator: (Depends on the solar radiation profile)
 
 The Simulator comes with various `Types` depending upon the solar
 radiation profile. `Type0` for constant solar radiation, `Type1` is for
@@ -65,7 +65,7 @@ four different types of solar insolation profiles as follows,
     `‘lfr_I_sec_quad_all_Lgp.mat’` file. Cloud cover acts as a
     disturbance.
 
-## Different **`Modes`** of the Simulator:
+## 2.2 Different **`Modes`** of the Simulator:
 
 -   Mode 1: In this mode, only the Parabolic Trough Collector (PTC)
     field is operational i.e. steam is produced only from the Steam
@@ -76,7 +76,7 @@ four different types of solar insolation profiles as follows,
     steam will be produced from the Steam generator (SG) as well as the
     LFR.
 
-## Different **`Startup types`** of the simulator:
+## 2.3 Different **`Startup types`** of the simulator:
 
 The simulator can replicate a two-day simulation with identical daily
 solar radiation profiles. The first day represents a Cold startup,
@@ -110,7 +110,7 @@ below in [Figure 1](#fig1).
 <p id="fig1" align="center"><b>Figure 1:</b> Main script of the Simulator</p>
 
 
-# Simulation Procedure (To test/run the simulator)
+# 3 Simulation Procedure (To test/run the simulator)
 
 The steps involved in running the simulator are briefly discussed below:
 
@@ -163,7 +163,7 @@ The steps involved in running the simulator are briefly discussed below:
 LTS, and Windows 11/10 operating systems. MATLAB version R2023a has been
 used for simulation.
 
-# Simulation Time
+# 4 Simulation Time
 
 In this section, we present some illustrative numbers to give an idea of
 the time taken for simulation. We consider two day simulation (startup
@@ -200,7 +200,7 @@ simulation time is recorded in variable 'Simu_time'.
 
 
 
-# Results
+# 5 Results
 
 All the simulation plots are automatically saved into `‘iMAGE’` folder
 present in the Simulator. Within the `‘iMAGE’` folder, there are four
@@ -209,7 +209,7 @@ other folders corresponding to four Types of Solar radiation profiles
 sub-folder, the cold startup (Day-1) and warm startup (Day-2) results
 for both the oil-only loop and hybrid loop folders are given.
 
-# Abbreviation
+# 6 Abbreviation
 
 -   PTC: Parabolic trough collector.
 
@@ -227,7 +227,7 @@ for both the oil-only loop and hybrid loop folders are given.
 
 -   SD: Steam Drum.
 
-# Description about different function files in the Simulator
+# 7 Description about different function files in the Simulator
 
 The simulator consists of several `‘.m’` files which are briefly
 described below:
@@ -437,7 +437,7 @@ described below:
 
 75. **HXSG_height**: To find the Steam generator height of water.
 
-# Case Study
+# 8 Case Study
 
 To illustrate how the simulator can be used to investigate different
 designs, we perform a case study (Case Study-2 in the paper 'A Simulator
