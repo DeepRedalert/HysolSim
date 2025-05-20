@@ -100,10 +100,14 @@ data.
 The user can choose any combination depending on the Mode, Type &
 Startup type for the simulator to run. To start the simulator, open
 `‘All_HSTPP_Simulator.m’` in MATLAB. A snapshot of this file is shown
-below in Figure.[1](#Front){reference-type="ref" reference="Front"}.
+below in Figure.[1]
 
-![Main script of the Simulator](Readme_images/Front.png){#Front
-width="0.7\\linewidth"}
+<p align="center">
+  <img src="Readme_images/Front.png" alt="Main script of the Simulator" width="70%">
+</p>
+
+<p align="center"><b>Figure:</b> Main script of the Simulator</p>
+
 
 # Simulation Procedure (To test/run the simulator)
 
