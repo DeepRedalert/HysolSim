@@ -205,9 +205,9 @@ simulation time is recorded in variable 'Simu_time'.
 All the simulation plots are automatically saved into `‘iMAGE’` folder
 present in the Simulator. Within the `‘iMAGE’` folder, there are four
 other folders corresponding to four Types of Solar radiation profiles
-(Constant, Step change, Real-time, and Quadratic). With each such
+(Constant-Type0, Step change-Type1, Realtime-Type2, and Quadratic-Type3). With each such
 sub-folder, the cold startup (Day-1) and warm startup (Day-2) results
-for both the oil-only loop and hybrid loop folders are given.
+for both the oil-only loop and hybrid loop folders are given. Inside the respective folders, the user can find all the generated images.
 
 # 6 Abbreviation
 
