@@ -118,7 +118,7 @@ directory. Within the iMAGE folder, there must be four subfolders named `‘Type
 `‘Day1_oilonly’`, `‘Day2_hybrid’`, and `‘Day2_oilonly’`, which are designated for saving the generated images. If any of these folders are missing, the user should create them before proceeding with code testing. The folder structure is illustrated in the figure below in [Figure 2](#fig2)
 
    <p align="center">
-      <img src="Readme_images/Folder_Structure.jpg" alt="Selecting Types" width="50%">
+      <img src="Readme_images/Folder_Structure.jpg" alt="Folder Structure" width="50%">
    </p>
 
    <p id="fig2" align="center"><b>Figure 2:</b> Selecting Types</p>
