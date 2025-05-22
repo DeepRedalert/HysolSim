@@ -112,7 +112,18 @@ below in [Figure 1](#fig1).
 
 # 3 Simulation Procedure (To test/run the simulator)
 
-All the `‘.m’` files, iMAGE folder, `‘.mat’` files, `‘.xlsx’` file should be inside one single folder.  The steps involved in running the simulator are briefly discussed below:
+All the `‘.m’` files, `‘.mat’` files, the `‘.xlsx’` file, and the `‘iMAGE’` folder should be placed inside a single main
+directory. Within the iMAGE folder, there must be four subfolders named `‘Type0’`, `‘Type1’`, `‘Type2’`, and
+`‘Type3’`. Each of these Type folders should, in turn, contain four additional subfolders: `‘Day1_hybrid’`,
+`‘Day1_oilonly’`, `‘Day2_hybrid’`, and `‘Day2_oilonly’`, which are designated for saving the generated images. If any of these folders are missing, the user should create them before proceeding with code testing. The folder structure is illustrated in the figure below in [Figure 2](#fig7)
+
+   <p align="center">
+      <img src="Readme_images/Folder_Structure.jpg" alt="Selecting Types" width="70%">
+   </p>
+
+   <p id="fig7" align="center"><b>Figure 2:</b> Selecting Types</p>
+
+The steps involved in running the simulator are briefly discussed below:
 
 -   Execute the file `‘All_HSTPP_Simulator.m’` in MATLAB. A message will
     be displayed as shown in [Figure 2](#fig2) to select the Type of simulation.
