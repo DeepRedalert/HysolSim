@@ -476,4 +476,4 @@ described in the paper published by Baidya et al. [\[3\]](#ref3).
 
 <p id="ref1">[1]. I. B. Project, National solar thermal power plant, https://www.ese.iitb.ac.in/~NSTPP/.</p>
 <p id="ref2">[2]. S. Kannaiyan, S. Bhartiya, M. Bhushan, Dynamic modeling and simulation of a hybrid solar thermal power plant, Industrial & Engineering Chemistry Research 58 (2019) 7531–7550. doi: 10.1021/acs.iecr.8b04730.</p>
-<p id="ref3">[3]. D. Baidya, S. Bhartiya, M. Bhushan, Simulator for hybrid solar thermal power plant, SoftwareX (2025).</p>
+<p id="ref3">[3]. D. Baidya, S. Kannaiyan, M. Bhushan, S. Bhartiya, Simulator for hybrid solar thermal power plant, SoftwareX (2025).</p>
