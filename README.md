@@ -112,7 +112,7 @@ below in [Figure 1](#fig1).
 
 # 3 Simulation Procedure (To test/run the simulator)
 
-All the \texttt{.m} files, iMAGE folder, \texttt{.mat} files, \texttt{.xlsx} file should be inside one single folder.  The steps involved in running the simulator are briefly discussed below:
+All the `‘.m’` files, iMAGE folder, `‘.mat’` files, `‘.xlsx’` file should be inside one single folder.  The steps involved in running the simulator are briefly discussed below:
 
 -   Execute the file `‘All_HSTPP_Simulator.m’` in MATLAB. A message will
     be displayed as shown in [Figure 2](#fig2) to select the Type of simulation.
