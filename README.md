@@ -42,12 +42,12 @@ four different types of solar insolation profiles as follows,
     radiation.
 
 -   `Type 1`: This `Type` is for running the simulator with constant but
-    step change type solar radiation from 700 W/m^2 to 400 W/m^2,
+    step change type solar radiation from $700\ \mathrm{W/m^2}$ to $400\ \mathrm{W/m^2}$,
     which loads from the `‘lfr_I_sec_step_all_Lgp.mat’` file.
 
     This change happens in one second. This profile is also for
     simulator testing purposes. Note that the user should not give the
-    solar radiation below 400 W/m^2 as it may lead to some error. The
+    solar radiation below $400\ \mathrm{W/m^2}$ as it may lead to some error. The
     error may be in terms of complex numbers, or some variable may
     appear as not a number (NaN). Such errors can usually be identified 
     and corrected through careful debugging.
@@ -135,7 +135,7 @@ The steps involved in running the simulator are briefly discussed below:
 
    <p id="fig3" align="center"><b>Figure 3:</b> Selecting Types</p>
 
--   User can type any number from $0$ to $3$ and press enter. Another
+-   User can type any number from `0` to `3` and press enter. Another
     message will be displayed on the screen asking the user to select
     the `Mode` of operation as shown in [Figure 4](#fig4).
 
@@ -156,17 +156,17 @@ The steps involved in running the simulator are briefly discussed below:
     <p id="fig5" align="center"><b>Figure 5:</b> Selecting Startup condition</p>
 
 
--   User can choose either $1$, $2$ or $3$ and press enter.
+-   User can choose either `1`, `2` or `3` and press enter.
 
 -   Now the simulation will start. Wait for the simulation to end. As an
     example, if Hybrid plant (Mode 2) is simulated with startup option
-    3, then a total $26$ different figures for Day-$1$ (Cold startup
-    with Figure number $1$ to $26$) and another $26$ figures for Day-$2$
-    (Hot startup with Figure number $31$ to $56$) will get generated.
+    3, then a total `26` different figures for Day-1 (Cold startup
+    with Figure number `1` to `26`) and another `26` figures for Day-2
+    (Hot startup with Figure number `31` to `56`) will get generated.
     Thus, the user should wait till the last Figure is displayed to know
     that the simulation is complete. For Oil-only mode (Mode 1), Figures
-    1-11 will be generated for cold startup, while Figures $31$ to
-    Figure $41$ will be generated for warm startup.
+    1-11 will be generated for cold startup, while Figures `31` to
+    Figure `41` will be generated for warm startup.
 
 -   If the performance of the plant needs to be evaluated, then the user
     should execute the file `‘Performance_calculation.m’`.
@@ -245,7 +245,7 @@ The simulator consists of several `‘.m’` files which are briefly
 described below:
 
 1.  **solarfield**: Contains dynamic model of the Parabolic trough
-    collector (PTC). Here, $3$ PDEs of PTC converted to $45$ ODEs.
+    collector (PTC). Here, `3` PDEs of PTC converted to `45` ODEs.
 
 2.  **density_oil**: Computes density of oil (used in PTC field) given
     its temperature.
@@ -434,9 +434,9 @@ described below:
 69. **h2o_mul**: To find Dynamic viscosity of the subcooled water.
 
 70. **h2o_psat**: To find Saturation pressure of water at a given
-    temperature in $kPa$.
+    temperature in kPa.
 
-71. **h2o_rhotp**: To find Two-phase density of water in $kg/m^3$.
+71. **h2o_rhotp**: To find Two-phase density of water in kg/m^3.
 
 72. **h2o_sigma**: To find the surface tension of water at a given
     temperature.
