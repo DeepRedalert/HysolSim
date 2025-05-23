@@ -1,5 +1,5 @@
 <h1>README file for HysolSim: A Digital Twin (Simulator) for Hybrid Solar Thermal Power Plant</h1>
-# To begin working with the code, extract the contents of the **HysolSim_Code.zip** file
+# To begin working with the code, extract the contents of the HysolSim_Code.zip file
 
 ##
 **HysolSIm**: **`HysolSim`** is a **`MATLAB`**-based codebase that serves as a digital twin (simulator) for a Hybrid Solar Thermal Power Plant where both Parabolic Trough Collectors (PTC) and Linear Fresnel Reflectors (LFR) work as the concentrating mirrors. Note that the simulator can also be run in PTC-only mode, without the LFR. Further details are provided in the following section. An article using the simulator, authored by Baidya et al. (2025), has been submitted to SoftwareX.
