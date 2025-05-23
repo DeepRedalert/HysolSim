@@ -42,12 +42,12 @@ four different types of solar insolation profiles as follows,
     radiation.
 
 -   `Type 1`: This `Type` is for running the simulator with constant but
-    step change type solar radiation from $700 W/m^2$ to $400 W/m^2$,
+    step change type solar radiation from 700 W/m^2 to 400 W/m^2,
     which loads from the `‘lfr_I_sec_step_all_Lgp.mat’` file.
 
     This change happens in one second. This profile is also for
     simulator testing purposes. Note that the user should not give the
-    solar radiation below $400 W/m^2$ as it may lead to some error. The
+    solar radiation below 400 W/m^2 as it may lead to some error. The
     error may be in terms of complex numbers, or some variable may
     appear as not a number (NaN). Such errors can usually be identified 
     and corrected through careful debugging.
