@@ -93,7 +93,10 @@ data.
 
 -   Only Hot startup: For this case, the initial condition of the plant
     depends on the data obtained from the cooling process during the
-    nighttime of the last active day of operation.
+    nighttime of the last active day of operation. This application will only function
+    after a Cold Startup has been executed at least once. During the Cold Startup process,
+    a `.mat` file is generated, which is essential for subsequent Hot Startup operations.
+    Users must run the Cold Startup initially to ensure the required data file is available for Hot Startup to utilize.
 
 -   Cold+Hot startup: In this scenario, the plant will undergo both cold
     startup and hot startup scenarios, necessitating a comprehensive
