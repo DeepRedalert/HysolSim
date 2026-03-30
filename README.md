@@ -161,6 +161,8 @@ The steps involved in running the simulator are briefly discussed below:
 
 -   User can choose either `1`, `2` or `3` and press enter.
 
+    \textbf{Note:} Due to the large size of the generated .mat files, these files are not included in the uploaded package. Therefore, users are requested to initially perform a       cold startup simulation by setting `Startup` = 1 or `Startup` = 3. Once the required .mat files are generated, users can subsequently run the simulation using any startup             condition (`Startup` = 1, `Startup` = 2, or `Startup` = 3).
+    
 -   Now the simulation will start. Wait for the simulation to end. As an
     example, if Hybrid plant (Mode 2) is simulated with startup option
     3, then a total `26` different figures for Day-1 (Cold startup
