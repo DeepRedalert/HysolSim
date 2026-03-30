@@ -455,8 +455,9 @@ described below:
 # 8 Case Study
 
 To illustrate how the simulator can be used to investigate different
-designs, we perform a case study (Case Study-2 in the paper 'A Simulator
-for Hybrid Solar Thermal Power Plant' by Baidya et al.
+designs, we perform a case study (Case Study in the manuscript 'HysolSim: A Digital
+Twin Framework for Hybrid Solar Thermal Power
+Plant Simulation and Analysis' by Baidya et al.
 [\[3\]](#ref3) for two scenarios: (i) Scenario-1: the HT and LT tanks
 contain 5000 kg of oil each, and (ii) Scenario-2: the HT and LT tank
 contain 15000 kg, and 5000 kg of oil, respectively, i.e. more oil is
