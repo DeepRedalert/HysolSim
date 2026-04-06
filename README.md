@@ -3,7 +3,7 @@
 To begin working with the code, extract the contents of the **`HysolSim_Code.zip`** file. The main file to run the simulator is **`All_HSTPP_Simulator.m`** (inside HysolSim_Code folder).
 
 ##
-**HysolSIm**: **`HysolSim`** is a **`MATLAB`**-based codebase that serves as a digital twin (simulator) for a Hybrid Solar Thermal Power Plant where both Parabolic Trough Collectors (PTC) and Linear Fresnel Reflectors (LFR) work as the concentrating mirrors. Note that the simulator can also be run in PTC-only mode, without the LFR. Further details are provided in the following section. An article using the simulator, authored by Baidya et al. (2025), has been submitted to SoftwareX.
+**HysolSIm**: **`HysolSim`** is a **`MATLAB`**-based codebase that serves as a dynamic simulator for a Hybrid Solar Thermal Power Plant where both Parabolic Trough Collectors (PTC) and Linear Fresnel Reflectors (LFR) work as the concentrating mirrors. Note that the simulator can also be run in PTC-only mode, without the LFR. Further details are provided in the following section. An article using the simulator, authored by Baidya et al. (2025), has been submitted to SoftwareX.
 
 Details on how to test the simulator are provided in Section 3 of this README file.  
 
@@ -456,21 +456,7 @@ described below:
 
 # 8 Case Study
 
-To illustrate how the simulator can be used to investigate different
-designs, we perform a case study (Case Study in the manuscript 'HysolSim: A Digital
-Twin Framework for Hybrid Solar Thermal Power
-Plant Simulation and Analysis' by Baidya et al.
-[\[3\]](#ref3) for two scenarios: (i) Scenario-1: the HT and LT tanks
-contain 5000 kg of oil each, and (ii) Scenario-2: the HT and LT tank
-contain 15000 kg, and 5000 kg of oil, respectively, i.e. more oil is
-available in Scenario-2. For Scenario-1, load
-`‘lfr_I_sec_HX_Case_study_Low.mat’` and for Scenario-2, load
-`‘lfr_I_sec_HX_Case_study_high_Low.mat’` file. The user should ensure
-that while considering Scenario-1, the line
-`‘load lfr_I_sec_HX_Case_study_high_Low.mat %Scenario-2`' should be
-commented. Similarly, while considering Scenario-2, the line
-`‘load lfr_I_sec_HX_Case_study_Low.mat %Scenario-1’` should be
-commented. In [Figure 6](#fig6), line
+To illustrate how the simulator can be used to investigate different designs, we perform a case study (Case Study in the manuscript 'HysolSim: Plantwide Dynamic Simulator for A  Hybrid Solar Thermal Power Plant' by Baidya et al. [\[3\]](#ref3) for two scenarios: (i) Scenario-1: the HT and LT tanks contain 5000 kg of oil each, and (ii) Scenario-2: the HT and LT tank contain 15000 kg, and 5000 kg of oil, respectively, i.e. more oil is available in Scenario-2. For Scenario-1, load `‘lfr_I_sec_HX_Case_study_Low.mat’` and for Scenario-2, load `‘lfr_I_sec_HX_Case_study_high_Low.mat’` file. The user should ensure that while considering Scenario-1, the line `‘load lfr_I_sec_HX_Case_study_high_Low.mat %Scenario-2`' should be commented. Similarly, while considering Scenario-2, the line `‘load lfr_I_sec_HX_Case_study_Low.mat %Scenario-1’` should be commented. In [Figure 6](#fig6), line
 no 22 is for Scenario-1, and line no 23 is for Scenario-2.
 
 This specific Case study simulation will be performed with the options:
