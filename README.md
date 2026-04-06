@@ -1,4 +1,4 @@
-<h1>README file for HysolSim: A Digital Twin Framework for Hybrid Solar Thermal Power Plant Simulation and Analysis</h1>
+<h1>README file for HysolSim: Plantwide Dynamic Simulator for A  Hybrid Solar Thermal Power Plant</h1>
 
 To begin working with the code, extract the contents of the **`HysolSim_Code.zip`** file. The main file to run the simulator is **`All_HSTPP_Simulator.m`** (inside HysolSim_Code folder).
 
