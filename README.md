@@ -116,7 +116,7 @@ In this section, we present some illustrative numbers to give an idea of the tim
 
 [Table 1](#tab1) lists the time needed, in seconds, for simulation for various cases. This simulation time is recorded in the variable `Simu_time` in seconds.
 
-**Note:** A system with 16 GB RAM or higher is preferable for running the simulator. Larger memory is beneficial for full hybrid and two-day simulations because the LFR discretization leads to a large ODE system. The case `Type = 0`, `Mode = 1`, and `Startup = 1` may be used as a lightweight demo/test case to verify that the simulator runs and generates the expected output figures.
+**Note:** A system with 16 GB RAM or higher is preferable for running the simulator. Larger memory is beneficial for full hybrid and two-day simulations because the LFR discretization leads to a large ODE system. The case `Type = 0`, `Mode = 1`, and `Startup = 1` may be used as a demonstration/test case to verify that the simulator runs correctly and generates the expected output figures, while requiring the least simulation time among the available case studies.
 
 <p id="tab1"><b>Table 1: Simulation time</b></p>
 
